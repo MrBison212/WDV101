@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Savanna's Coffee House</title>
+
+<!--
+	Author: Jude Bissoon
+	November 30, 2019
+-->
+
+<meta name="description" content="Contact page for Savanna's Coffee House.">
+<meta name="keywords" content="coffee, food, entertainment">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  text-align: center;
+  background-color: darkblue;
+	font-family: 'Satisfy', cursive;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #530fb8;
+  color: white;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 70%;
+  background-color: #270459;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 30%;
+  background-color: #35067a;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px 200px;
+  text-align: center;
+  background: darkblue;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anchor {
+  color: darkgreen
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar, .anchor {
+    flex-direction: column;
+  }
+}
+
+input[type=text],  select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-color: #35067a;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Satisfy', cursive;
+  font-size: 15px;
+  background-color: #aa84e3;
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:darkblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Satisfy', cursive;
+  font-size: 15px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #35067a;
+  font-family: 'Satisfy', cursive;
+  font-size: 15px;
+
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  color: white;
+  background-color: #270459;
+  padding: 20px;
+  font-family: 'Satisfy', cursive;
+  font-size: 15px;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #270459;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #35067a;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px 200px;
+  text-align: center;
+  background: darkblue;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anchor {
+  color: darkgreen
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar, .anchor {
+    flex-direction: column;
+  }
+}
+
+</style>
+
+<a name="top"></a>
+
+
+</head>
+
+<body>
+
+<img src="images/coffee-917613_640.jpg" alt="coffee beans" class="banner">
+
+<h1>Savanna's Coffee House</h1>
+
+<nav>
+<ul class="navbar">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about_page.html">About</a></li>
+	<li><a href="menu_page.html">Menu</a></li>
+	<li><a href="events.html">Events</a></li>
+	<li><a href="contact_form.html">Contact Us</a></li>
+</ul>
+</nav>
+
+<div class="row">
+  <div class="side">
+    <h2>Leave Us Some Feeback!</h2>
+      <p>
+        Was our service satisfactory? Was there something else we could've done to make your
+        visit more delightful? Please tell us!! All feedback is welcome! We want to make
+        our customers happy.
+      </p>
+      <p>
+        (702)-971-1154
+      </p>
+  </div>
+  <div class="main">
+    <div class="container">
+      <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name" class="textcolor">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+        <label for="email">Email address</label>
+        <input type="text" id="email" name="email" placeholder="Your email address">
+
+        <label for="experience">How was your Experience?</label>
+        <select id="experience" name="experience">
+          <option value="good">Good</option>
+          <option value="bad">Bad</option>
+        </select>
+
+        <label for="subject">Tell Us</label>
+        <textarea id="tell us" name="tell us" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<h3></h3>
+
+<p><a href="#top"><center>Go to Top</center></a></p>
+
+
+<div class="footer">
+  <h2>Follow Us!</h2>
+  <div class="row">
+      <a href="https://www.facebook.com"><img src="images/facebook.png" class="imglink" alt="facebook" height="40px" width="40px"></a>
+      <a href="https://www.instagram.com"><img src="images/insta.png" class="imglink" alt="instagram" height="40px" width="40px"></a>
+      <a href="https://twitter.com"><img src="images/twitter.png" class="imglink" alt="twitter" height="40px" width="40px"></a>
+  </div>
+    <h2>We hope to see you soon!!</h2>
+</div>
+
+</body></html>

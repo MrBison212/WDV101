@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Savanna's Coffee House</title>
+
+<!--
+	Author: Jude Bissoon
+	November 30, 2019
+-->
+
+<meta name="description" content="Home page for Savanna's Coffee House.">
+<meta name="keywords" content="coffee, food, entertainment">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  text-align: center;
+  background-color: darkblue;
+	font-family: 'Satisfy', cursive;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #530fb8;
+  color: white;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 70%;
+  background-color: #270459;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 30%;
+  background-color: #35067a;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px 200px;
+  text-align: center;
+  background: darkblue;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anchor {
+  color: darkgreen
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar, .anchor {
+    flex-direction: column;
+  }
+}
+</style>
+
+<a name="top"></a>
+
+</head>
+
+<body>
+
+<img src="images/coffee-917613_640.jpg" alt="coffee beans" class="banner">
+
+<h1>Savanna's Coffee House</h1>
+
+<nav>
+<ul class="navbar">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about_page.html">About</a></li>
+	<li><a href="menu_page.html">Menu</a></li>
+	<li><a href="events.html">Events</a></li>
+	<li><a href="contact_form.html">Contact Us</a></li>
+</ul>
+</nav>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <p class="dropcap">
+      Welcome to Savanna's Coffee House where we roast our own coffee from only the best coffee sources around the
+      world. Our prices are low and we offer a range of beverages, sandwiches, salads, and homemade soups; along with a wide variety of
+      cakes, pastries, and desserts. See our <a href="menu_page.html" style="color:#9e861e">Menu</a> for more.
+    </p>
+    <p>
+      We offer a strong, fast, and free Wifi connection, providing a comfy workspace for the average college student,
+      as well as an incredible lounging area to enjoy company with your friends and fellow peers. Local entertainment is also provided
+      on weekend evenings and you can find those events on the <a href="events.html" style="color:#9e861e">Events</a> tab.
+    </p>
+  </div>
+  <div class="main">
+    <div class="column">
+      <img src="images/coffee-4505688_640.jpg" alt="soup and sandwiches" height="90%" width="90%">
+      <img src="images/soup-1116028_640.jpg" alt="soup and sandwiches" height="90%" width="90%">
+      <img src="images/laptop-2324128_640.jpg" alt="soup and sandwiches" height="90%" width="90%">
+      <img src="images/band-2179313_640.jpg" alt="soup and sandwiches" height="90%" width="90%">
+    </div>
+  </div>
+</div>
+
+<h3></h3>
+
+<p><a href="#top"><center>Go to Top</center></a></p>
+
+
+<div class="footer">
+  <h2>Follow Us!</h2>
+  <div class="row">
+      <a href="https://www.facebook.com"><img src="images/facebook.png" class="imglink" alt="facebook" height="40px" width="40px"></a>
+      <a href="https://www.instagram.com"><img src="images/insta.png" class="imglink" alt="instagram" height="40px" width="40px"></a>
+      <a href="https://twitter.com"><img src="images/twitter.png" class="imglink" alt="twitter" height="40px" width="40px"></a>
+  </div>
+    <h2>We hope to see you soon!!</h2>
+</div>
+
+</body></html>

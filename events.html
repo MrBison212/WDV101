@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Savanna's Coffee House</title>
+
+<!--
+	Author: Jude Bissoon
+	November 30, 2019
+-->
+
+<meta name="description" content="Events page for Savanna's Coffee House.">
+<meta name="keywords" content="coffee, food, entertainment, Joel Bernstein,  Kate Macleod, Mark Mckay, The Backyard Girls">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  text-align: center;
+  background-color: darkblue;
+	font-family: 'Satisfy', cursive;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #530fb8;
+  color: white;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 70%;
+  background-color: #270459;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 30%;
+  background-color: #35067a;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px 200px;
+  text-align: center;
+  background: darkblue;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anchor {
+  color: darkgreen
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar, .anchor {
+    flex-direction: column;
+  }
+}
+</style>
+
+<a name="top"></a>
+
+</head>
+
+<body>
+
+<img src="images/coffee-917613_640.jpg" alt="coffee beans" class="banner">
+
+<h1>Savanna's Coffee House</h1>
+
+<nav>
+<ul class="navbar">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about_page.html">About</a></li>
+	<li><a href="menu_page.html">Menu</a></li>
+	<li><a href="events.html">Events</a></li>
+	<li><a href="contact_form.html">Contact Us</a></li>
+</ul>
+</nav>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>Weekly Events</h2>
+      <p><b>Chess Nite</b> - Every Monday evening 5:30 - 9:00 p.m.</p>
+    <h2>Savanna’s Upcoming Events:</h2>
+      <p><b>Sunday Songwriters Songfest</b></p>
+        <p>- February 21 @ 4:00 pm - 7:00 pm</p>
+        <p>- Kate Macleod – Award-winning American Songwriter.</p>
+        <p>- Joel Bernstein – Up & Coming Folk/Pop Songwriter.</p>
+      <p><b>Mark Mckay, singer songwriter</b></p>
+        <p>- Friday February 27th 8 - 10 p.m.</p>
+      <p><b>The Backyard Girls: pop acoustic guitar</b></p>
+        <p>- Friday February 27th 8 - 10 p.m.</p>
+  </div>
+  <div class="main">
+    <div class="column">
+      <h2> Artists:</h2>
+      <p>Kate Macleod</p>
+      <img src="images/guitar-944261_640.jpg" alt="girl with guitar" height="90%" width="90%">
+      <p>Joel Bernstein</p>
+      <img src="images/guitarist-407212_640.jpg" alt="beanie guy with guitar" height="90%" width="90%">
+      <p>Mark Mckay</p>
+      <img src="images/guitar-4144794_640.jpg" alt="guy with guitar" height="90%" width="90%">
+      <p>The Backyard Girls</p>
+      <img src="images/people-3104635_640.jpg" alt="girl group" height="90%" width="90%">
+    </div>
+  </div>
+</div>
+
+
+<h3></h3>
+
+<p><a href="#top"><center>Go to Top</center></a></p>
+
+
+<div class="footer">
+  <h2>Follow Us!</h2>
+  <div class="row">
+      <a href="https://www.facebook.com"><img src="images/facebook.png" class="imglink" alt="facebook" height="40px" width="40px"></a>
+      <a href="https://www.instagram.com"><img src="images/insta.png" class="imglink" alt="instagram" height="40px" width="40px"></a>
+      <a href="https://twitter.com"><img src="images/twitter.png" class="imglink" alt="twitter" height="40px" width="40px"></a>
+  </div>
+    <h2>We hope to see you soon!!</h2>
+</div>
+
+</body></html>

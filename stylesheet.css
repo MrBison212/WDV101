@@ -1,0 +1,176 @@
+/*Styling for the Savanna's Coffee House Site*/
+
+body {
+	background-color:#35067a;
+
+}
+
+title {
+	background-size: 50px;
+}
+
+h1 {
+	color:black;
+	background-color:darkgreen;
+	font-family: Impact, Charcoal, sans-serif;
+	text-align:center;
+	font-family: 'Dancing Script', cursive;
+	/*word-spacing:*/
+}
+
+h2 {
+ color:#0062ff;
+ font-family: Impact, Charcoal, sans-serif;
+ font-family: 'Dancing Script', cursive;
+ text-align: left;
+ word-spacing:5px;
+}
+
+
+h3, h4, h5 {
+	color:#9e861e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	line-height:1.5em;
+  text-indent:1em;
+	border-top:2px solid brown;
+	padding-top:25px;
+}
+
+p, center {
+	color:#9e861e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+	line-height:2em;
+	text-indent:2em;
+}
+
+ul li {
+
+	color:#068a1e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'Satisfy', cursive;
+	line-height:1.8em;
+	list-style-type:square;
+
+}
+
+ol li  {
+
+	color:#068a1e;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.8em;
+	list-style-type:upper-roman
+
+}
+
+
+a {
+	color:green;
+
+}
+
+a:hover {
+	color:blue;
+}
+
+a:active {
+	color:purple;
+}
+
+nav {
+	background-color:darkblue;
+	line-height:35px;
+}
+
+nav ul {
+	overflow:hidden;
+	height:40px;
+	font-size: 20px;
+}
+
+nav li {
+	display:inline;
+	padding-right:40px;
+	margin:auto;
+}
+
+nav a {
+	color:white;
+	text-decoration:none;
+}
+
+nav a:hover {
+	color:white;
+	background-color:#530fb8;
+	padding:.45em;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  background-color: darkblue;
+	font-family: 'Satisfy', cursive;
+}
+
+p.dropcap::first-letter {
+	color:#5e5011;
+	font-size:200%;
+}
+
+img {
+	border: 2px solid brown;
+	background-color:white;
+	padding: 5px;
+	margin-bottom:20px;
+}
+
+.banner {
+	border-style:none;
+	border: 20px solid green;
+	padding:0;
+	background-color:transparent;
+	margin:25px auto;
+	display:block;
+}
+
+.floatright {
+	float:right;
+	margin-left:25px;
+}
+
+.floatleft {
+	float:left;
+	margin-right:25px;
+}
+
+.clearfloat {
+	clear:both;
+}
+
+.button {
+  background-color:#cc0000;
+  border-radius: 15px;
+	border-color: #ab0000;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #ab0000;
+  color: #ffda7d;
+}
+
+.imglink {
+	border-style:none;
+	background-color:transparent;
+	margin:25px 10px;
+	display:block;
+  margin-left: auto;
+  margin-right: auto;
+	}
